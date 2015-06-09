@@ -1,0 +1,7 @@
+What does the following error message tell you?
+
+  NameError: undefined local variable or method `shoes' for main:Object
+  from (irb):3
+  from /usr/local/rvm/rubies/ruby-2.0.0-rc2/bin/irb:16:in `<main>'
+
+This lets me know that I have called a for a variable "shoes" but Ruby can't find it.  It's possible that it is in a block/outside of the scope where it's been asked for.
