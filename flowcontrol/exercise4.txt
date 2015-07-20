@@ -1,0 +1,39 @@
+1. '4' == 4 ? puts("TRUE") : puts("FALSE")
+
+Does string4 = integer4? If so, print true, if not print false
+Should print false because a string != an integer
+    "FALSE
+     => nil"
+
+
+2. x = 2
+   if ((x * 3) / 2) == (4 + 4 - x - 3)
+     puts "Did you get it right?"
+   else
+     puts "Did you?"
+   end
+
+Assigning a value.  if 3 == 3, puts did you get it right.  else puts did you?
+Should print "Did you get it right?"
+    "Did you get it right?
+     => nil"
+
+
+3. y = 9
+   x = 10
+   if (x + 1) <= (y)
+     puts "Alright."
+   elsif (x + 1) >= (y)
+     puts "Alright now!"
+   elsif (y + 1) == x
+     puts "ALRIGHT NOW!"
+   else
+     puts "Alrighty!"
+   end
+
+Assigning values.  If 11 <= 9 puts alright.  (no)  If 11 >=9 puts alright now.  (yes)  If 10 == 10 puts ALRIGHT NOW.  (yes) Else puts alrighty.
+Should print "Alright now!" since it is the first true arguement.
+    "Alright now!
+    => nil"
+
+
