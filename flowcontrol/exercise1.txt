@@ -1,0 +1,20 @@
+1. (32 * 4) >= 129
+=> false
+(128)
+
+2. false != !true
+=> false
+("not true" does not equal "not true")
+
+3. true == 4
+=> false
+This is checking if true is equal to 4.  Side note - you can't assign things to "true"
+
+4. false == (847 == '874')
+=> true.
+(The following expression is false:  847 = '874')
+(This is not just false because the numbers are different, but because a string is not equal to an integer.  Must be converted first.)
+
+5. (!true || (!(100 / 5) == 20) || ((328 / 4) == 82)) || false
+=> true
+(false || false || true) || false
